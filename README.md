@@ -28,7 +28,11 @@ https://www.sourcetreeapp.com/
 1. GitHubからソースをとってくる（クローン）
 2. 作業用ブランチ（feature-branch）を切る
 3. 空コミットする（作業開始のプルリクを投げるため）
+ - SourceTreeは標準で空コミットできないので下記で設定入れる
+ https://github.com/ikkou/SourceTree-Custom-Action
 4. feature-branchをリモートリポジトリにプッシュ
+ - プルリク名を[WIP]～～に変更すること
+ _（WIP…WorkInProgress、作業中の意）_
 5. できたブランチに対してプルリク作成
 6. 開発開発！
  1. 開発→コミット→リモートリポジトリにプッシュ、の繰り返し
